@@ -1,0 +1,28 @@
+1. on billing module
+
+		X . product quantity depletion anomaly. threshold cross message in one attempt shown, multiple attempt not shown
+		X . toggle switch not working
+		X . same notification not showing twice. error thrown
+		X . bill pdf shown in reader, not in browser
+		X . unit price anomaly ( showing 10 for all )
+
+
+
+X printer test remaining
+X barcode test remaining
+X login test remaining
+X pdf bill design remaining
+# scheme module
+# product critical level entry and notification
+# keyboard friendly
+# VAT Table and show in bill
+# VAT to be implicated only on products with taxable_status 1
+# Tender amount entry and show in bill
+# delete user
+X billing user in database
+
+
+
+X case non-sensetive in inventory module
+X billing user in bill ( only username ) do not show name
+X remove from bill not functioning, cart done
