@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 13, 2015 at 09:42 AM
+-- Generation Time: Jun 03, 2015 at 12:37 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -28,7 +28,6 @@ USE `dsbs`;
 -- Table structure for table `tbl_bill`
 --
 
-DROP TABLE IF EXISTS `tbl_bill`;
 CREATE TABLE IF NOT EXISTS `tbl_bill` (
   `b_id` varchar(10) NOT NULL,
   `u_id` varchar(10) DEFAULT NULL,
@@ -46,8 +45,37 @@ CREATE TABLE IF NOT EXISTS `tbl_bill` (
 INSERT INTO `tbl_bill` (`b_id`, `u_id`, `b_date`, `credit_flag`) VALUES
 ('1', 'U1', '2015-02-04 20:27:53', 1),
 ('10', 'U1', '2015-02-05 14:56:52', 1),
+('100', 'U1', '2015-06-03 15:59:25', 0),
+('101', 'U1', '2015-06-03 15:59:54', 0),
+('102', 'U1', '2015-06-03 16:00:54', 0),
+('103', 'U1', '2015-06-03 16:01:41', 0),
+('104', 'U1', '2015-06-03 16:02:10', 0),
+('105', 'U1', '2015-06-03 16:02:24', 0),
+('106', 'U1', '2015-06-03 16:03:07', 0),
+('107', 'U1', '2015-06-03 16:04:06', 0),
+('108', 'U1', '2015-06-03 16:04:36', 0),
+('109', 'U1', '2015-06-03 16:05:53', 0),
 ('11', 'U1', '2015-02-05 14:57:16', 1),
+('110', 'U1', '2015-06-03 16:08:16', 0),
+('111', 'U1', '2015-06-03 16:08:54', 0),
+('112', 'U1', '2015-06-03 16:09:17', 0),
+('113', 'U1', '2015-06-03 16:09:48', 0),
+('114', 'U1', '2015-06-03 16:11:09', 0),
+('115', 'U1', '2015-06-03 16:13:05', 0),
+('116', 'U1', '2015-06-03 16:13:52', 0),
+('117', 'U1', '2015-06-03 16:14:49', 0),
+('118', 'U1', '2015-06-03 16:15:04', 0),
+('119', 'U1', '2015-06-03 16:15:41', 0),
 ('12', 'U1', '2015-02-05 14:58:36', 1),
+('120', 'U1', '2015-06-03 16:16:01', 0),
+('121', 'U1', '2015-06-03 16:16:51', 0),
+('122', 'U1', '2015-06-03 16:17:57', 0),
+('123', 'U1', '2015-06-03 16:18:39', 0),
+('124', 'U1', '2015-06-03 16:18:58', 0),
+('125', 'U1', '2015-06-03 16:19:26', 0),
+('126', 'U1', '2015-06-03 16:19:49', 0),
+('127', 'U1', '2015-06-03 16:20:24', 0),
+('128', 'U1', '2015-06-03 16:21:11', 0),
 ('13', 'U1', '2015-02-05 15:00:00', 1),
 ('14', 'U1', '2015-02-08 22:39:30', 1),
 ('15', 'U1', '2015-02-09 10:13:28', 1),
@@ -115,8 +143,34 @@ INSERT INTO `tbl_bill` (`b_id`, `u_id`, `b_date`, `credit_flag`) VALUES
 ('71', 'U1', '2015-03-13 13:22:16', 0),
 ('72', 'U1', '2015-03-13 13:49:01', 0),
 ('73', 'U1', '2015-03-13 13:49:25', 0),
+('74', 'U1', '2015-06-03 00:38:47', 0),
+('75', 'U1', '2015-06-03 13:34:55', 0),
+('76', 'U1', '2015-06-03 13:36:23', 0),
+('77', 'U1', '2015-06-03 14:14:48', 0),
+('78', 'U1', '2015-06-03 14:16:02', 0),
+('79', 'U1', '2015-06-03 14:17:13', 0),
 ('8', 'U1', '2015-02-05 13:52:58', 1),
-('9', 'U1', '2015-02-05 14:56:34', 1);
+('80', 'U1', '2015-06-03 14:19:08', 0),
+('81', 'U1', '2015-06-03 14:20:31', 0),
+('82', 'U1', '2015-06-03 14:20:50', 0),
+('83', 'U1', '2015-06-03 14:21:17', 0),
+('84', 'U1', '2015-06-03 14:24:58', 0),
+('85', 'U1', '2015-06-03 14:25:29', 0),
+('86', 'U1', '2015-06-03 14:30:47', 0),
+('87', 'U1', '2015-06-03 14:53:42', 0),
+('88', 'U1', '2015-06-03 14:54:17', 0),
+('89', 'U1', '2015-06-03 15:01:16', 0),
+('9', 'U1', '2015-02-05 14:56:34', 1),
+('90', 'U1', '2015-06-03 15:01:37', 0),
+('91', 'U1', '2015-06-03 15:02:39', 0),
+('92', 'U1', '2015-06-03 15:17:32', 0),
+('93', 'U1', '2015-06-03 15:18:07', 0),
+('94', 'U1', '2015-06-03 15:18:29', 0),
+('95', 'U1', '2015-06-03 15:22:16', 0),
+('96', 'U1', '2015-06-03 15:54:20', 0),
+('97', 'U1', '2015-06-03 15:57:48', 0),
+('98', 'U1', '2015-06-03 15:58:27', 0),
+('99', 'U1', '2015-06-03 15:58:56', 0);
 
 -- --------------------------------------------------------
 
@@ -124,7 +178,6 @@ INSERT INTO `tbl_bill` (`b_id`, `u_id`, `b_date`, `credit_flag`) VALUES
 -- Table structure for table `tbl_bill_amount`
 --
 
-DROP TABLE IF EXISTS `tbl_bill_amount`;
 CREATE TABLE IF NOT EXISTS `tbl_bill_amount` (
   `b_id` varchar(10) DEFAULT NULL,
   `b_amt` decimal(8,2) DEFAULT NULL,
@@ -206,7 +259,62 @@ INSERT INTO `tbl_bill_amount` (`b_id`, `b_amt`) VALUES
 ('70', '20.00'),
 ('71', '20.00'),
 ('72', '150.00'),
-('73', '20.00');
+('73', '20.00'),
+('74', '40.50'),
+('75', '5000.00'),
+('76', '10000.00'),
+('77', '30.50'),
+('78', '30.50'),
+('79', '30.50'),
+('80', '30.50'),
+('81', '30.00'),
+('82', '30.00'),
+('83', '30.00'),
+('84', '30.00'),
+('85', '30.50'),
+('86', '30.50'),
+('87', '30.50'),
+('88', '30.50'),
+('89', '30.50'),
+('90', '30.00'),
+('91', '30.00'),
+('92', '30.50'),
+('93', '30.50'),
+('94', '30.00'),
+('95', '30.50'),
+('96', '30.50'),
+('97', '30.50'),
+('98', '30.00'),
+('99', '30.50'),
+('100', '30.50'),
+('101', '30.50'),
+('102', '30.00'),
+('103', '30.00'),
+('104', '30.50'),
+('105', '30.00'),
+('106', '30.50'),
+('107', '30.50'),
+('108', '30.50'),
+('109', '90.50'),
+('110', '120.50'),
+('111', '60.50'),
+('112', '120.50'),
+('113', '30.50'),
+('114', '30.50'),
+('115', '30.50'),
+('116', '200.50'),
+('117', '80.00'),
+('118', '60.50'),
+('119', '30.50'),
+('120', '30.00'),
+('121', '5110.00'),
+('122', '5140.50'),
+('123', '30.50'),
+('124', '30.50'),
+('125', '200.50'),
+('126', '30.50'),
+('127', '5160.00'),
+('128', '5250.50');
 
 -- --------------------------------------------------------
 
@@ -214,7 +322,6 @@ INSERT INTO `tbl_bill_amount` (`b_id`, `b_amt`) VALUES
 -- Table structure for table `tbl_bill_detail`
 --
 
-DROP TABLE IF EXISTS `tbl_bill_detail`;
 CREATE TABLE IF NOT EXISTS `tbl_bill_detail` (
   `b_id` varchar(10) DEFAULT NULL,
   `p_id` varchar(10) DEFAULT NULL,
@@ -348,7 +455,96 @@ INSERT INTO `tbl_bill_detail` (`b_id`, `p_id`, `qty`) VALUES
 ('72', 'CAT1P10', '3.00'),
 ('72', 'CAT1P9', '3.00'),
 ('72', 'CAT3P23', '3.00'),
-('73', 'CAT1P11', '2.00');
+('73', 'CAT1P11', '2.00'),
+('74', 'CAT1P1', '1.00'),
+('75', 'CAT5P25', '1.00'),
+('76', 'CAT5P25', '2.00'),
+('77', 'CAT1P1', '1.00'),
+('78', 'CAT1P1', '1.00'),
+('79', 'CAT1P1', '1.00'),
+('80', 'CAT1P1', '1.00'),
+('81', 'CAT1P11', '1.00'),
+('82', 'CAT1P11', '1.00'),
+('83', 'CAT1P11', '1.00'),
+('84', 'CAT1P10', '1.00'),
+('85', 'CAT1P1', '1.00'),
+('86', 'CAT1P1', '1.00'),
+('87', 'CAT1P1', '1.00'),
+('88', 'CAT1P1', '1.00'),
+('89', 'CAT1P1', '1.00'),
+('90', 'CAT1P10', '1.00'),
+('91', 'CAT1P10', '1.00'),
+('92', 'CAT1P1', '1.00'),
+('93', 'CAT1P1', '1.00'),
+('94', 'CAT1P10', '1.00'),
+('95', 'CAT1P1', '1.00'),
+('96', 'CAT1P1', '1.00'),
+('97', 'CAT1P1', '1.00'),
+('98', 'CAT1P10', '1.00'),
+('99', 'CAT1P1', '1.00'),
+('100', 'CAT1P1', '1.00'),
+('101', 'CAT1P1', '1.00'),
+('102', 'CAT1P12', '1.00'),
+('103', 'CAT1P10', '1.00'),
+('104', 'CAT1P1', '1.00'),
+('105', 'CAT1P10', '1.00'),
+('106', 'CAT1P1', '1.00'),
+('107', 'CAT1P1', '1.00'),
+('108', 'CAT1P1', '1.00'),
+('109', 'CAT1P10', '1.00'),
+('109', 'CAT1P1', '1.00'),
+('109', 'CAT1P12', '1.00'),
+('110', 'CAT1P1', '1.00'),
+('110', 'CAT1P10', '1.00'),
+('110', 'CAT1P11', '1.00'),
+('110', 'CAT1P12', '1.00'),
+('111', 'CAT1P1', '1.00'),
+('111', 'CAT1P10', '1.00'),
+('112', 'CAT1P10', '1.00'),
+('112', 'CAT1P1', '1.00'),
+('112', 'CAT1P11', '1.00'),
+('112', 'CAT1P12', '1.00'),
+('113', 'CAT1P1', '1.00'),
+('114', 'CAT1P1', '1.00'),
+('115', 'CAT1P1', '1.00'),
+('116', 'CAT1P1', '1.00'),
+('116', 'CAT1P10', '1.00'),
+('116', 'CAT1P11', '1.00'),
+('116', 'CAT1P12', '1.00'),
+('116', 'CAT3P23', '1.00'),
+('117', 'CAT3P23', '1.00'),
+('118', 'CAT1P1', '1.00'),
+('118', 'CAT1P11', '1.00'),
+('119', 'CAT1P1', '1.00'),
+('120', 'CAT1P12', '1.00'),
+('121', 'CAT1P10', '1.00'),
+('121', 'CAT3P23', '1.00'),
+('121', 'CAT5P25', '1.00'),
+('122', 'CAT1P1', '1.00'),
+('122', 'CAT3P23', '1.00'),
+('122', 'CAT1P11', '1.00'),
+('122', 'CAT5P25', '1.00'),
+('123', 'CAT1P1', '1.00'),
+('124', 'CAT1P1', '1.00'),
+('125', 'CAT1P1', '1.00'),
+('125', 'CAT1P10', '1.00'),
+('125', 'CAT1P11', '1.00'),
+('125', 'CAT1P12', '1.00'),
+('125', 'CAT3P23', '1.00'),
+('126', 'CAT1P1', '1.00'),
+('127', 'CAT1P10', '1.00'),
+('127', 'CAT1P11', '1.00'),
+('127', 'CAT1P12', '1.00'),
+('127', 'CAT1P15', '1.00'),
+('127', 'CAT5P25', '1.00'),
+('128', 'CAT1P1', '1.00'),
+('128', 'CAT1P10', '1.00'),
+('128', 'CAT1P11', '1.00'),
+('128', 'CAT1P12', '1.00'),
+('128', 'CAT1P15', '1.00'),
+('128', 'CAT1P7', '1.00'),
+('128', 'CAT2P24', '1.00'),
+('128', 'CAT5P25', '1.00');
 
 -- --------------------------------------------------------
 
@@ -356,7 +552,6 @@ INSERT INTO `tbl_bill_detail` (`b_id`, `p_id`, `qty`) VALUES
 -- Table structure for table `tbl_controllers`
 --
 
-DROP TABLE IF EXISTS `tbl_controllers`;
 CREATE TABLE IF NOT EXISTS `tbl_controllers` (
   `controller_id` varchar(10) NOT NULL DEFAULT '',
   `controller_name` varchar(100) DEFAULT NULL,
@@ -369,7 +564,6 @@ CREATE TABLE IF NOT EXISTS `tbl_controllers` (
 -- Table structure for table `tbl_creditors_advanced`
 --
 
-DROP TABLE IF EXISTS `tbl_creditors_advanced`;
 CREATE TABLE IF NOT EXISTS `tbl_creditors_advanced` (
   `creditor_id` varchar(10) DEFAULT NULL,
   `b_id` varchar(10) DEFAULT NULL,
@@ -406,7 +600,6 @@ INSERT INTO `tbl_creditors_advanced` (`creditor_id`, `b_id`, `due_date`, `credit
 -- Table structure for table `tbl_creditors_basic`
 --
 
-DROP TABLE IF EXISTS `tbl_creditors_basic`;
 CREATE TABLE IF NOT EXISTS `tbl_creditors_basic` (
   `creditor_id` varchar(10) NOT NULL,
   `creditor_name` varchar(100) DEFAULT NULL,
@@ -430,7 +623,6 @@ INSERT INTO `tbl_creditors_basic` (`creditor_id`, `creditor_name`, `address`, `e
 -- Table structure for table `tbl_module`
 --
 
-DROP TABLE IF EXISTS `tbl_module`;
 CREATE TABLE IF NOT EXISTS `tbl_module` (
   `module_id` varchar(10) NOT NULL,
   `module_name` varchar(50) DEFAULT NULL,
@@ -459,7 +651,6 @@ INSERT INTO `tbl_module` (`module_id`, `module_name`, `module_author`, `module_d
 -- Table structure for table `tbl_permission`
 --
 
-DROP TABLE IF EXISTS `tbl_permission`;
 CREATE TABLE IF NOT EXISTS `tbl_permission` (
   `u_id` varchar(10) DEFAULT NULL,
   `controller_id` varchar(10) DEFAULT NULL,
@@ -474,7 +665,6 @@ CREATE TABLE IF NOT EXISTS `tbl_permission` (
 -- Table structure for table `tbl_product`
 --
 
-DROP TABLE IF EXISTS `tbl_product`;
 CREATE TABLE IF NOT EXISTS `tbl_product` (
   `p_id` varchar(10) NOT NULL,
   `c_id` varchar(10) DEFAULT NULL,
@@ -491,13 +681,13 @@ CREATE TABLE IF NOT EXISTS `tbl_product` (
 --
 
 INSERT INTO `tbl_product` (`p_id`, `c_id`, `p_name`, `p_count`, `p_selling_price`) VALUES
-('CAT1P1', 'CAT1', 'Lays Big', '52', '40.50'),
-('CAT1P10', 'CAT1', 'Lays Japanese', '26', '40.00'),
-('CAT1P11', 'CAT1', 'Lays Korean', '62', '40.00'),
-('CAT1P12', 'CAT1', 'Lays Nepali', '94', '40.00'),
+('CAT1P1', 'CAT1', 'Lays Big', '14', '40.50'),
+('CAT1P10', 'CAT1', 'Lays Japanese', '10', '40.00'),
+('CAT1P11', 'CAT1', 'Lays Korean', '51', '40.00'),
+('CAT1P12', 'CAT1', 'Lays Nepali', '85', '40.00'),
 ('CAT1P13', 'CAT1', 'test', '83', '12.00'),
 ('CAT1P14', 'CAT1', 'test', '58', '12.00'),
-('CAT1P15', 'CAT1', 'Aalu', '47', '80.00'),
+('CAT1P15', 'CAT1', 'Aalu', '45', '80.00'),
 ('CAT1P16', 'CAT1', 'Aalu 2', '94', '12.00'),
 ('CAT1P17', 'CAT1', 'Aalu 3', '100', '12.00'),
 ('CAT1P18', 'CAT1', 'aaa', '105', '15.00'),
@@ -510,10 +700,12 @@ INSERT INTO `tbl_product` (`p_id`, `c_id`, `p_name`, `p_count`, `p_selling_price
 ('CAT1P4', 'CAT1', 'Lays Onion Big', '100', '40.00'),
 ('CAT1P5', 'CAT1', 'Lays American Cheese Big', '100', '40.00'),
 ('CAT1P6', 'CAT1', 'Lays Indian', '100', '40.00'),
-('CAT1P7', 'CAT1', 'Lays Chinese', '100', '40.00'),
+('CAT1P7', 'CAT1', 'Lays Chinese', '99', '40.00'),
 ('CAT1P8', 'CAT1', 'Lays German', '100', '40.00'),
 ('CAT1P9', 'CAT1', 'Lays Hungarian', '97', '40.00'),
-('CAT3P23', 'CAT3', 'Dahi', '37', '80.00');
+('CAT2P24', 'CAT2', 'Bread', '99', '30.00'),
+('CAT3P23', 'CAT3', 'Dahi', '32', '80.00'),
+('CAT5P25', 'CAT5', 'Red Lable', '3', '5000.00');
 
 -- --------------------------------------------------------
 
@@ -521,7 +713,6 @@ INSERT INTO `tbl_product` (`p_id`, `c_id`, `p_name`, `p_count`, `p_selling_price
 -- Table structure for table `tbl_product_category`
 --
 
-DROP TABLE IF EXISTS `tbl_product_category`;
 CREATE TABLE IF NOT EXISTS `tbl_product_category` (
   `c_id` varchar(10) NOT NULL,
   `c_name` varchar(40) DEFAULT NULL,
@@ -541,7 +732,72 @@ INSERT INTO `tbl_product_category` (`c_id`, `c_name`, `c_date_added`, `c_date_ed
 ('CAT1', 'Junk Food', '2014-12-23 18:45:55', NULL, 'U1'),
 ('CAT2', 'Bakery', '2015-03-10 16:27:27', NULL, 'U1'),
 ('CAT3', 'Dairy', '2015-03-10 16:31:01', NULL, 'U1'),
-('CAT4', 'Candy', '2015-03-11 17:58:58', NULL, 'U1');
+('CAT4', 'Candy', '2015-03-11 17:58:58', NULL, 'U1'),
+('CAT5', 'Liquor', '2015-06-03 00:00:00', NULL, 'U1');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_schemes`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_schemes` (
+  `sch_id` int(11) NOT NULL,
+  `sch_title` varchar(100) DEFAULT NULL,
+  `sch_start_date` date DEFAULT NULL,
+  `sch_end_date` date DEFAULT NULL,
+  `sch_daily_start_time` time DEFAULT NULL,
+  `sch_daily_end_time` time DEFAULT NULL,
+  `sch_amt` decimal(7,2) DEFAULT NULL,
+  `sch_unit` varchar(15) DEFAULT NULL,
+  `sch_type` varchar(15) DEFAULT NULL,
+  `u_id` varchar(10) DEFAULT NULL,
+  `c_id` varchar(10) DEFAULT NULL,
+  `p_id` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`sch_id`),
+  UNIQUE KEY `sch_id` (`sch_id`),
+  KEY `u_id` (`u_id`),
+  KEY `p_id` (`p_id`),
+  KEY `c_id` (`c_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_schemes`
+--
+
+INSERT INTO `tbl_schemes` (`sch_id`, `sch_title`, `sch_start_date`, `sch_end_date`, `sch_daily_start_time`, `sch_daily_end_time`, `sch_amt`, `sch_unit`, `sch_type`, `u_id`, `c_id`, `p_id`) VALUES
+(1, 'Bakery after 7', '2015-06-02', NULL, '17:00:00', '23:00:00', '50.00', '%', 'DISCOUNT', 'U1', 'CAT2', NULL),
+(2, '5 off Dairy!', '2015-06-02', '2015-06-16', '17:00:00', '23:00:00', '5.00', 'NRS', 'DISCOUNT', 'U1', 'CAT3', NULL),
+(3, 'Test', '2015-06-02', '2015-06-16', '11:00:00', '23:00:00', '10.00', 'NRS', 'DISCOUNT', 'U1', 'CAT1', NULL),
+(4, 'VAT on Liquor', '2015-06-03', NULL, NULL, NULL, '13.00', '%', 'TAX', 'U1', 'CAT5', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_tax`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_tax` (
+  `tx_id` int(11) NOT NULL,
+  `tx_bill_id` varchar(10) DEFAULT NULL,
+  `tx_bill_date` date DEFAULT NULL,
+  `tx_total_amt` decimal(7,2) DEFAULT NULL,
+  `tx_product_name` varchar(100) DEFAULT NULL,
+  `tx_amt` float NOT NULL,
+  PRIMARY KEY (`tx_id`),
+  KEY `tx_bill_id` (`tx_bill_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_tax`
+--
+
+INSERT INTO `tbl_tax` (`tx_id`, `tx_bill_id`, `tx_bill_date`, `tx_total_amt`, `tx_product_name`, `tx_amt`) VALUES
+(1, '76', '2015-06-03', '5000.00', ' Red Lable', 13),
+(2, '121', '2015-06-03', '5000.00', ' Red Lable', 13),
+(3, '122', '2015-06-03', '5000.00', ' Red Lable', 13),
+(4, '127', '2015-06-03', '5000.00', ' Red Lable', 13),
+(5, '128', '2015-06-03', '5000.00', ' Red Lable', 13);
 
 -- --------------------------------------------------------
 
@@ -549,7 +805,6 @@ INSERT INTO `tbl_product_category` (`c_id`, `c_name`, `c_date_added`, `c_date_ed
 -- Table structure for table `tbl_transaction`
 --
 
-DROP TABLE IF EXISTS `tbl_transaction`;
 CREATE TABLE IF NOT EXISTS `tbl_transaction` (
   `t_id` varchar(20) NOT NULL,
   `t_date` datetime DEFAULT NULL,
@@ -568,8 +823,35 @@ CREATE TABLE IF NOT EXISTS `tbl_transaction` (
 INSERT INTO `tbl_transaction` (`t_id`, `t_date`, `t_flow`, `t_user`, `t_amount`, `t_details`) VALUES
 ('1', '2015-02-04 20:27:53', 'in', 'U1', '110.00', 'Sales'),
 ('10', '2015-02-05 14:58:36', 'in', 'U1', '500.00', 'Sales'),
+('100', '2015-06-03 16:00:54', 'in', 'U1', '30.00', 'Sales'),
+('101', '2015-06-03 16:01:41', 'in', 'U1', '30.00', 'Sales'),
+('102', '2015-06-03 16:02:11', 'in', 'U1', '30.50', 'Sales'),
+('103', '2015-06-03 16:02:24', 'in', 'U1', '30.00', 'Sales'),
+('104', '2015-06-03 16:03:07', 'in', 'U1', '30.50', 'Sales'),
+('105', '2015-06-03 16:04:06', 'in', 'U1', '30.50', 'Sales'),
+('106', '2015-06-03 16:04:37', 'in', 'U1', '30.50', 'Sales'),
+('107', '2015-06-03 16:05:54', 'in', 'U1', '90.50', 'Sales'),
+('108', '2015-06-03 16:08:17', 'in', 'U1', '120.50', 'Sales'),
+('109', '2015-06-03 16:08:54', 'in', 'U1', '60.50', 'Sales'),
 ('11', '2015-02-05 15:00:00', 'in', 'U1', '40.00', 'Sales'),
+('110', '2015-06-03 16:09:17', 'in', 'U1', '120.50', 'Sales'),
+('111', '2015-06-03 16:09:48', 'in', 'U1', '30.50', 'Sales'),
+('112', '2015-06-03 16:11:09', 'in', 'U1', '30.50', 'Sales'),
+('113', '2015-06-03 16:13:05', 'in', 'U1', '30.50', 'Sales'),
+('114', '2015-06-03 16:13:53', 'in', 'U1', '200.50', 'Sales'),
+('115', '2015-06-03 16:14:49', 'in', 'U1', '80.00', 'Sales'),
+('116', '2015-06-03 16:15:04', 'in', 'U1', '60.50', 'Sales'),
+('117', '2015-06-03 16:15:41', 'in', 'U1', '30.50', 'Sales'),
+('118', '2015-06-03 16:16:01', 'in', 'U1', '30.00', 'Sales'),
+('119', '2015-06-03 16:16:51', 'in', 'U1', '5110.00', 'Sales'),
 ('12', '2015-02-08 22:39:30', 'in', 'U1', '100.00', 'Sales'),
+('120', '2015-06-03 16:17:57', 'in', 'U1', '5140.50', 'Sales'),
+('121', '2015-06-03 16:18:39', 'in', 'U1', '30.50', 'Sales'),
+('122', '2015-06-03 16:18:58', 'in', 'U1', '30.50', 'Sales'),
+('123', '2015-06-03 16:19:26', 'in', 'U1', '200.50', 'Sales'),
+('124', '2015-06-03 16:19:49', 'in', 'U1', '30.50', 'Sales'),
+('125', '2015-06-03 16:20:24', 'in', 'U1', '5160.00', 'Sales'),
+('126', '2015-06-03 16:21:12', 'in', 'U1', '5250.50', 'Sales'),
 ('13', '2015-02-09 10:13:28', 'in', 'U1', '50.00', 'Sales'),
 ('14', '2015-03-08 10:57:59', 'in', 'U1', '20.00', 'Sales'),
 ('15', '2015-03-08 11:10:09', 'in', 'U1', '50.00', 'Sales'),
@@ -635,8 +917,36 @@ INSERT INTO `tbl_transaction` (`t_id`, `t_date`, `t_flow`, `t_user`, `t_amount`,
 ('7', '2015-02-05 13:52:10', 'in', 'U1', '100.00', 'Sales'),
 ('70', '2015-03-13 13:49:01', 'in', 'U1', '150.00', 'Sales'),
 ('71', '2015-03-13 13:49:25', 'in', 'U1', '20.00', 'Sales'),
+('72', '2015-06-03 00:38:47', 'in', 'U1', '40.50', 'Sales'),
+('73', '2015-06-03 13:34:55', 'in', 'U1', '5000.00', 'Sales'),
+('74', '2015-06-03 13:36:23', 'in', 'U1', '10000.00', 'Sales'),
+('75', '2015-06-03 14:14:48', 'in', 'U1', '30.50', 'Sales'),
+('76', '2015-06-03 14:16:02', 'in', 'U1', '30.50', 'Sales'),
+('77', '2015-06-03 14:17:14', 'in', 'U1', '30.50', 'Sales'),
+('78', '2015-06-03 14:19:08', 'in', 'U1', '30.50', 'Sales'),
+('79', '2015-06-03 14:20:31', 'in', 'U1', '30.00', 'Sales'),
 ('8', '2015-02-05 14:56:34', 'in', 'U1', '20.00', 'Sales'),
-('9', '2015-02-05 14:57:16', 'in', 'U1', '20.00', 'Sales');
+('80', '2015-06-03 14:20:50', 'in', 'U1', '30.00', 'Sales'),
+('81', '2015-06-03 14:21:17', 'in', 'U1', '30.00', 'Sales'),
+('82', '2015-06-03 14:24:58', 'in', 'U1', '30.00', 'Sales'),
+('83', '2015-06-03 14:25:29', 'in', 'U1', '30.50', 'Sales'),
+('84', '2015-06-03 14:30:48', 'in', 'U1', '30.50', 'Sales'),
+('85', '2015-06-03 14:53:42', 'in', 'U1', '30.50', 'Sales'),
+('86', '2015-06-03 14:54:17', 'in', 'U1', '30.50', 'Sales'),
+('87', '2015-06-03 15:01:16', 'in', 'U1', '30.50', 'Sales'),
+('88', '2015-06-03 15:01:37', 'in', 'U1', '30.00', 'Sales'),
+('89', '2015-06-03 15:02:39', 'in', 'U1', '30.00', 'Sales'),
+('9', '2015-02-05 14:57:16', 'in', 'U1', '20.00', 'Sales'),
+('90', '2015-06-03 15:17:32', 'in', 'U1', '30.50', 'Sales'),
+('91', '2015-06-03 15:18:07', 'in', 'U1', '30.50', 'Sales'),
+('92', '2015-06-03 15:18:29', 'in', 'U1', '30.00', 'Sales'),
+('93', '2015-06-03 15:22:16', 'in', 'U1', '30.50', 'Sales'),
+('94', '2015-06-03 15:54:20', 'in', 'U1', '30.50', 'Sales'),
+('95', '2015-06-03 15:57:48', 'in', 'U1', '30.50', 'Sales'),
+('96', '2015-06-03 15:58:27', 'in', 'U1', '30.00', 'Sales'),
+('97', '2015-06-03 15:58:56', 'in', 'U1', '30.50', 'Sales'),
+('98', '2015-06-03 15:59:25', 'in', 'U1', '30.50', 'Sales'),
+('99', '2015-06-03 15:59:54', 'in', 'U1', '30.50', 'Sales');
 
 -- --------------------------------------------------------
 
@@ -644,7 +954,6 @@ INSERT INTO `tbl_transaction` (`t_id`, `t_date`, `t_flow`, `t_user`, `t_amount`,
 -- Table structure for table `tbl_user`
 --
 
-DROP TABLE IF EXISTS `tbl_user`;
 CREATE TABLE IF NOT EXISTS `tbl_user` (
   `u_id` varchar(10) NOT NULL,
   `u_name` varchar(30) DEFAULT NULL,
@@ -674,7 +983,6 @@ INSERT INTO `tbl_user` (`u_id`, `u_name`, `u_first_name`, `u_last_name`, `u_type
 -- Table structure for table `tbl_warehouse`
 --
 
-DROP TABLE IF EXISTS `tbl_warehouse`;
 CREATE TABLE IF NOT EXISTS `tbl_warehouse` (
   `product_id` varchar(10) DEFAULT NULL,
   `stock` decimal(10,0) DEFAULT NULL,
@@ -728,6 +1036,20 @@ ALTER TABLE `tbl_product`
 --
 ALTER TABLE `tbl_product_category`
   ADD CONSTRAINT `tbl_product_category_ibfk_1` FOREIGN KEY (`u_id`) REFERENCES `tbl_user` (`u_id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `tbl_schemes`
+--
+ALTER TABLE `tbl_schemes`
+  ADD CONSTRAINT `tbl_schemes_ibfk_1` FOREIGN KEY (`u_id`) REFERENCES `tbl_user` (`u_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `tbl_schemes_ibfk_2` FOREIGN KEY (`p_id`) REFERENCES `tbl_product` (`p_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `tbl_schemes_ibfk_3` FOREIGN KEY (`c_id`) REFERENCES `tbl_product_category` (`c_id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `tbl_tax`
+--
+ALTER TABLE `tbl_tax`
+  ADD CONSTRAINT `tbl_tax_ibfk_1` FOREIGN KEY (`tx_bill_id`) REFERENCES `tbl_bill` (`b_id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `tbl_transaction`
